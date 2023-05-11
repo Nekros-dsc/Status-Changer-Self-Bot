@@ -1,6 +1,5 @@
 const { Client } = require('discord.js-selfbot-v13');
 const config = require('./config');
-const prefix = config.client.prefix;
 
 const client = new Client({
   checkUpdate: false,
